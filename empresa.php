@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa - Coluna</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/0a5e21480a7e1.ico">
+</head>
+<body>
+    <header>
+        <?php include 'menu.php'; ?>
+    </header>
+    <main>
+        <section class="empresa">
+            <h2>Sobre a Empresa</h2>
+            <div class="empresa-conteudo">
+                <p>
+                    A Coluna Metalurgia nasceu em uma pequena oficina, no subúrbio de São Gonçalo – RJ, no ano de 2014. No início fornecia poucos produtos de serralheria para alguns clientes. Mas, graças ao bom relacionamento de seu sócio administrador com o mercado de construção civil – relação que já existe há mais de 30 anos, rapidamente o negócio cresceu e foi necessário contratar mais pessoas, adquirir mais máquinas e se mudar para um local mais amplo e apropriado para atender à demanda que inevitavelmente viria em seguida.
+                </p>
+                <p>
+                    Hoje a Coluna conta com uma estrutura física de xxxxx m² em dois galpões, frota de veículos própria, máquinas e equipamentos modernos e profissionais qualificados, capacitados e experientes. Todo o trabalho é feito dentro dos mais rigorosos padrões de qualidade, meio ambiente e segurança do trabalho, visando atender aos clientes de maneira rápida, eficiente e definitiva.
+                </p>
+                <p>
+                    O tratamento da Coluna com seus Clientes e Fornecedores é baseado na ética e na responsabilidade, visando criar uma relação sólida e duradoura.
+                </p>
+                <p><strong>Bem vindo à Coluna Soluções em Metalurgia!</strong></p>
+                <section class="foto-grande" style="margin:2rem 0 0 0;padding:0;">
+                    <img src="assets/img/empresa-foto.png" alt="Foto da Empresa Coluna" style="width:100%;max-width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin:0;display:block;">
+                </section>
+            </div>
+        </section>
+        <section class="mvv">
+            <div class="mvv-colunas">
+                <div class="mvv-coluna">
+                    <h2>Missão</h2>
+                    <p>Desenvolver, produzir, comercializar e revender produtos de serralheria para a indústria da construção civil, garantindo a excelência na entrega desses produtos.</p>
+                </div>
+                <div class="mvv-coluna">
+                    <h2>Visão</h2>
+                    <p>Ser reconhecida pela indústria da construção civil como a maior fornecedora de produtos de serralheria, ferro fundido, aço, aço inox e alumínio.</p>
+                </div>
+                <div class="mvv-coluna">
+                    <h2>Valores</h2>
+                    <p>Valorizar o fator humano, acima de tudo; Estabelecer uma parceria sustentável com clientes e fornecedores; Buscar a todo custo cumprir os prazos acordados; Tendo a ética como norteadora de todas as tomadas de decisões.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Coluna Metalurgia. Todos os direitos reservados.</p>
+    </footer>
+    <script src="assets/js/menu-mobile.js"></script>
+</body>
+</html>
